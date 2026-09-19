@@ -62,3 +62,9 @@ nav a:hover {
     padding: 20px;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
