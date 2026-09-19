@@ -41,3 +41,11 @@ nav a:hover {
     border-radius: 4px;
     z-index: 2;
 }
+
+.note {
+    color: red;
+}
+
+#status {
+    color: navy;
+}
