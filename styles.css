@@ -21,6 +21,16 @@ nav a:hover {
     position: relative;
 }
 
+.behind {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 50px;
+    background: #c45c26;
+    z-index: 1;
+}
+
 .badge {
     position: absolute;
     top: 8px;
@@ -29,4 +39,5 @@ nav a:hover {
     color: white;
     padding: 4px 8px;
     border-radius: 4px;
+    z-index: 2;
 }
